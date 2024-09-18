@@ -12,7 +12,7 @@ metadata:
     # ArgoCD apps from this template used rhtap-gitops as the grouping
     argocd/app-selector: rhtap/gitops=go-jenkins1
     jenkins.io/job-full-name: go-jenkins1
-    backstage.io/kubernetes-id: go-jenkins1 
+    backstage.io/kubernetes-id: go-jenkins 
     backstage.io/techdocs-ref: dir:. 
     quay.io/repository-slug: jduimovich0/bootstrap  
   tags: ["go", "sscs", "sbom", "acs"] 
